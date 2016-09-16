@@ -15,10 +15,7 @@ Define what we mean by available
 Is it Operational (Synthetic Build)  
 Is it Service Response (Ping API)  
 Define, review and approve  process for measuring control plane availability  
-Start with Rackspace MaaS Remote Monitoring  
-https://github.com/rcbops/rpc-openstack/tree/master/maas/plugins  
 Define, review and approve workload  
-Start with Rackspace Private Cloud generic customer workload, or OpenStack Infra  
 Document the recipe for the results, how did we get this data, scientific method we used  
 Four different three week deploys at 10,100,500,1000  
 Deploy OpenStack Newton  

@@ -4,8 +4,8 @@ __more notes in Google Doc__
 
 High Availability of Services  
 Teams/Projects: Ops, Docs, Tech Marketing  
-Designated Tech Lead:  Melvin  
-Designated Group Coordinator:  
+Designated Tech Lead:  Melvin Hillsman  
+Designated Group Coordinator: Mike Tamayo  
 Why: Enterprises have concerns about the availability of OpenStack, specifically at scale.  
 Details: Verification Process, test and publish what works.   
 Projects Deployed:   

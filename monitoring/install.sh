@@ -1,6 +1,7 @@
 # Clone monitoring stack repository into /opt
-cd opt
-git clone https://github.com/osic/reliability-openstack-ansible-ops.git
+git clone https://github.com/osic/reliability-openstack-ansible-ops.git /opt/openstack-ansible-ops
 
 # Run the monitoring install script
-./reliability-openstack-ansible-ops/cluster_metrics/install.sh 
+cd /opt/reliability-openstack-ansible-ops/cluster_metrics
+chmod +x install.sh
+./install.sh 

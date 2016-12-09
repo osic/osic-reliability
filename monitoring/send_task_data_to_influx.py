@@ -117,6 +117,9 @@ def main(args):
             print ("ERROR: Failed to get last Rally task ID ")
             print (output)
             raise exception
+    else:
+        print ("Using task: {}".format(task_id))
+        parse_and_send_to_influx(task_id)
 
 
 if __name__ == "__main__":
